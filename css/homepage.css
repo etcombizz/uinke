@@ -1,0 +1,244 @@
+body {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	font-family: Arial,'Times New Roman', Times, serif, Helvetica, sans-serif;
+	background-color: rgba(238, 238, 238, 1);
+	background-image: url(../images/body.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: color-burn;
+	display: flex;
+	
+}
+/* navigation bar*/
+#navbar
+{
+	max-width: 1200px;
+	margin: auto;
+    height: 20px;
+    margin-top: 10px;	
+}
+#navbar ul
+{
+	float: right;
+	list-style-type: none;
+}
+#navbar ul li
+{
+	display: inline-block;
+}
+#navbar ul li a
+{
+	color: #1a1717;
+	text-decoration: none; 
+	padding:  5px 20px;
+	border: 2px solid #fff; 
+	border-radius: 10px;
+	transition: 0.6s ease;
+}
+#navbar ul li a:hover
+{
+    background-color: rgb(245, 246, 251);
+	color: rgb(12, 100, 198);
+}
+#navbar .logo img
+{
+	float: left;
+	width: 50px;
+	height: auto;
+	margin-top: 10px;
+	border-radius: 20px;  
+}
+/* end of navigation bar*/
+/*site title */
+#site_title 
+{
+	margin-left: 200px;
+}
+#site_title h1
+{
+	color: royalblue;
+}
+/* end of site title */
+/* end of header*/
+
+/*Body part*/
+/* content section */
+
+
+.content_section 
+{
+	float: left;	
+	width: 630px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	padding: 0 30px 0 15px;
+	padding-bottom: 20px;
+	
+}
+.content_section hr
+{
+	border-bottom: 1px dotted #000000;
+}
+.content_section h2
+{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 15px 0;
+	color: #71950f;
+}
+.content_section p {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.content_section .em_text {
+	color: #0d2d4b;
+}
+.content_section .featured_places {
+	width: 600px;
+	margin: 10px 0 0 20px;
+	padding: 0;
+	list-style: none;
+}
+.content_section .featured_places_left
+{
+	float: left;
+	width: 300px;
+	margin: 10px 0 0 0 ;
+	padding: 0;
+	list-style-type: none;
+
+}
+.content_section .featured_places_left li {
+	margin: 0;
+	padding: 0;
+}
+
+.content_section .featured_places_left li a {
+	display: block;
+	color: #71950f;
+	font-weight: bold;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px dotted #CCC;
+	text-decoration: none;
+}
+
+.content_section .featured_places_left li a span {
+	font-weight: normal;
+	display: block;
+	color: #888;
+}
+
+.content_section .featured_places_right
+{
+	float: right;
+	width: 300px;
+	margin: 10px 0 0 0 ;
+	padding: 0;
+	list-style-type: none;
+
+}
+.content_section .featured_places_right li {
+	margin: 0;
+	padding: 0;
+}
+
+.content_section .featured_places_right li a {
+	display: block;
+	color: #71950f;
+	font-weight: bold;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px dotted #CCC;
+	text-decoration: none;
+}
+
+.content_section .featured_places_right li a span {
+	font-weight: normal;
+	display: block;
+	color: #888;
+}
+.content_section .button_02 a
+{
+	color: #000000;
+	text-decoration: none; 
+	padding:  2px 4px;
+	border: 2px solid #666666; 
+	border-radius: 10px;
+}
+.content_section .button_02 a:hover 
+{
+	color: #013766;
+}
+/* end of content */
+
+/* sidebar new destination */
+
+#new_destination{
+	float: right;
+	width: 280px;
+	padding-top: 20px;
+	margin-right: 20px;
+
+}
+#new_destination h2 {
+	margin: 0 0 10px 0;
+	padding: 10px 0;
+	font-size: 26px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#new_destination h3 {
+	margin: 0 0 5px 0;	
+}
+
+#new_destination p {
+	margin-bottom: 10px;
+}
+
+#new_destination .image_wrapper {
+	display: block;
+	width: 260px;
+	height: 140px;
+	padding: 10px;
+	margin-bottom: 8px;
+	background: url(images/templatemo_image_frame_280x140.png);
+	background-repeat: no-repeat;
+}
+
+#new_destination .image_wrapper img {
+	width: 260px;
+	height: 120px;
+}
+#new_destination .button_01 a
+{
+	color: #013766;
+	text-decoration: none; 
+	padding:  1px 2px;
+	border: 2px solid #666666; 
+	border-radius: 10px;
+}
+#new_destination .button_01 a:hover 
+{
+	color: #888;
+}
+/* end of sidebar */
+
+/* footer */
+
+.footerpart 
+{
+	display: inline-block;
+	width: 100%;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	
+}
+
+/* end of footer */
